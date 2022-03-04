@@ -1,0 +1,16 @@
+{
+  "name": "Have a Cookie Bot",
+  "version": "1.0.0",
+  "description": "The bot that builds stronger, happier communities through rewards and recongition.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "authors": "Fiverr.com/mdaniels6758, github.com/candidexmedia",
+  "license": "AGPLv3",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "discord.js": "^13.6.0",
+    "fs": "^0.0.1-security"
+  }
+}

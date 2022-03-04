@@ -1,0 +1,23 @@
+{
+    "token": "BOT TOKEN",
+    
+    "prefix": "!",
+    "emoji": "🍪",
+    "maxPerDay": 5,
+
+    "prizePurchaseAlertChannel": "CHANNEL ID",
+    "prizes": [
+        { 
+            "name": "Day Off", 
+            "description": "Take a day off to have some fun and recharge your batteries.", 
+            "price": 25,
+            "reedeemInstructions": "Admin has been notified to process your purchase."
+        },
+        { 
+            "name": "Team Party", 
+            "description": "End the day early with a team party.", 
+            "price": 10,
+            "reedeemInstructions": "Admin has been notified to process your purchase."
+        }
+    ]
+}
