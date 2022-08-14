@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-The Open Source HeyTaco! alternative for Discord that builds stronger, happier communities through rewards and recognition. 
+The Open Source HeyTaco! alternative for Discord that builds better communities through rewards and recognition. 
 </p>
 
 <p align="center">
@@ -43,7 +43,7 @@ The Open Source HeyTaco! alternative for Discord that builds stronger, happier c
 ## Written Instructions
 
 # About the project
-I commissioned this bot from a lovely freelancer on Fiverr who goes by [mdaniels6758](www.fiverr.com/mdaniels6758). I made some modifications and decided to open source the project in the hopes that it will benefit other Discord users, and that improvements can be brought to the project collectively.
+I commissioned this bot from a freelancer on Fiverr named [mdaniels6758](www.fiverr.com/mdaniels6758). I made some modifications and decided to open source the project in the hopes that it will benefit other Discord users, and that improvements can be brought to the project collectively.
 
 # Wishlist / Bugs to Fix
 Help, Suggestions, and Pull Requests are much appreciated!
