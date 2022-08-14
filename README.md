@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-The Open Source HeyTaco! alternative for Discord that builds better communities through rewards and recognition. 
+The Open Source HeyTaco! alternative for Discord that fosters better communities through rewards and recognition. 
 </p>
 
 <p align="center">
