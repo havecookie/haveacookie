@@ -1,9 +1,11 @@
 {
-    "token": "BOT TOKEN",
+    "token": "<bot token>",
     
     "prefix": "!",
     "emoji": "🍪",
     "maxPerDay": 5,
+
+    "databaseUrl" : "<postgres connection url>",
 
     "prizePurchaseAlertChannel": "CHANNEL ID",
     "prizes": [
