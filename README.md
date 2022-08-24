@@ -77,10 +77,7 @@ I commissioned this bot from a freelancer on Fiverr named [mdaniels6758](www.fiv
 
 # Wishlist / Bugs to Fix
 Help, Suggestions, and Pull Requests are much appreciated!
-- [x] Replace user.json database with a remote database → at the moment, if you deploy the bot on a platform like Railway (with code hosted on GitHub), you'll lose all the user data when you redeploy the bot.
-- [ ] Create a starter for [Railway](www.railway.app/) with the token and channel ID as variables you can fill out prior to deploying → this would require the remote database issue to be resolved. Railway supports PostgreSQL, MySQL, Redis, and MongoDB.
-- [ ] Purchasing awards via DM doesn't display the purchase alert in the channel specified in "prizePurchaseAlertChannel".
-- [ ] Create a version for [Matrix](https://matrix.org/).
+Consult the list here: https://github.com/havecookie/haveacookie/issues
 
 # Support
 Do you enjoy this software? If so, consider supporting me so that I can bring more open source ideas and tutorials to life! <br><br>
