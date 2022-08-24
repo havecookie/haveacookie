@@ -37,10 +37,10 @@ The Open Source HeyTaco! alternative for Discord that fosters better communities
 
 # Screenshots
 
-# Getting Started (Railway.app)
+# Getting Started ([Railway.app](https://railway.app?referralCode=7ENqQl))
 ## Video Tutorial
 
-## Written Instructions (Railway.app)
+## Written Instructions ([Railway.app](https://railway.app?referralCode=7ENqQl))
 ### Create your Discord Bot
 https://discordpy.readthedocs.io/en/latest/discord.html
 - Take note of the bot token
