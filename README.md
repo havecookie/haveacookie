@@ -70,7 +70,7 @@ https://discordpy.readthedocs.io/en/latest/discord.html
 1. Give a reward: In any channel from a server where the bot exists, `@` mention a fellow user followed by the emoji. For example, `"thanks for the help @candidexmedia :cookie:"`
 2. List of Prizes: Direct message the bot using your prefix set in [`config.json`](https://github.com/havecookie/haveacookie/blob/main/data/config.json) followed by `prizes`.
 2. Purchase: Direct message the bot using your prefix set in [`config.json`](https://github.com/havecookie/haveacookie/blob/main/data/config.json) followed by `prizes` and the prize number (ie: "`!prizes 1`" for the first prize listed in the prize list)
-3. Leaderboard: `@` mention the bot
+3. Leaderboard + Check Balance: `@` mention the bot
 
 # About the project
 I commissioned this bot from a freelancer on Fiverr named [mdaniels6758](www.fiverr.com/mdaniels6758). I made some modifications and decided to open source the project in the hopes that it will benefit other Discord users, and that improvements can be brought to the project collectively.
