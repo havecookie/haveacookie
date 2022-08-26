@@ -118,7 +118,7 @@ function buildPurchaseEmbed(author, item, emoji) {
             name: author.tag,
             iconURL: author.displayAvatarURL(),
         },
-        footer : { text: `**${item.reedeemInstructions}**` }
+        footer : { text: `**${item.redeemInstructions}**` }
     })    
 }
 
