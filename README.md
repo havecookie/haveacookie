@@ -66,7 +66,7 @@ To use it, simply [set up the bot](https://github.com/havecookie/haveacookie#get
 13. Add the bot to the respective server.
 
 ### Creating your Code Repository
-1. Create a private clone of [this repository](https://github.com/havecookie/haveacookie) on GitHub. Make sure this repo is set to private, as you will be adding senditive information in the later steps.
+1. Create a private clone of [this repository](https://github.com/havecookie/haveacookie) on GitHub. Make sure this repo is set to private, as you will be adding sensitive information in the later steps.
 2. In your repo, select the `data` folder, and click on [`config.json`](https://github.com/havecookie/haveacookie/blob/main/data/config.json)
 3. Edit the variables for your custom bot. You can customize the emoji, prefix, max per day, prizes, and prize channel. Note that for the prizes, the `"redeemInstructions"` text is only visible once the prize has been successfully purchased.
 4. IMPORTANT: Make sure to add the bot token (from the previous section), and database URL (next section)
