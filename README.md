@@ -4,15 +4,25 @@
 </h1>
 
 <p align="center">
-The Open Source HeyTaco! alternative for Discord that fosters better communities through rewards and recognition.</p>
-<p align="center">@ mention another member with praise, add the emoji to give them points, and exchange your points for custom prizes!
-</p>
-
+The Discord bot that fosters better communities through rewards and peer recognition.</p>
 <p align="center">
     <a href="#"><b>Website</b></a> •
     <a href="#"><b>Twitter</b></a> •
     <a href="https://github.com/havecookie/haveacookie#getting-started-railwayapp"><b>Documentation</b></a>
 </p>  
+<br>
+<br>
+
+Have a Cookie is a simple alternative to HeyTaco!, Karma Bot, and Karl (KudosBot) that is:
+- Free
+- Open-source
+- Highly customizable (down to the emoji currency)
+- Available on Discord
+
+To use it, simply [set up the bot](https://github.com/havecookie/haveacookie#getting-started-railwayapp), @ mention another member along with the emoji to give them points, and exchange your points for custom prizes!
+
+
+
 
 # (PROMO VIDEO)
 
