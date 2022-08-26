@@ -16,6 +16,7 @@ The Discord bot that fosters better communities through rewards and peer recogni
 Have a Cookie is a simple alternative to HeyTaco!, Karma Bot, and Karl (KudosBot) that is:
 - Free
 - Open-source
+- Self-hosted
 - Highly customizable (down to the emoji currency)
 - Available on Discord
 
