@@ -114,7 +114,7 @@ bot.on("messageCreate", async (msg) => {
         // Send alert
         let alertChannel = await bot.guilds.cache.find(e => e.id === msg.guildId).channels.fetch(config.prizePurchaseAlertChannel)
 
-        return await alertChannel.send({ embeds : [buildPurchaseAlertEmbed(msg.author, item)] })
+        return await alertChannel.send({ embeds : [buildPurchaseAlertEmbed(msg.author, chosenItem, config.emoji)] })
     }
 });
 
