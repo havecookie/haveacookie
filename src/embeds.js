@@ -132,8 +132,8 @@ function buildPurchaseAlertEmbed(author, item, emoji){
         color : 'DARK_BLUE',
         title : 'Purchase Alert',
         fields : [
-            {value : item.name, inline: true, title : 'Item'},
-            {value : item.price, inline: true, title : 'Price'}
+            {value : item.name, inline: true, name : 'Item'},
+            {value : `${item.price}${emoji}`, inline: true, name : 'Price'}
         ],
         footer : {text : author.tag, iconURL : author.displayAvatarURL()}
     })

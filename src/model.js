@@ -61,19 +61,19 @@ async function getBalance(selfUserId) {
  */
 async function queryLeaderboards(selfUserId, limit = 10) {
     const givenRanking = await sequelize.query(
-        `select given_by as id, count(given_by) as given_count from c_user_cookie_transactions group by given_by order by given_count desc LIMIT ${limit};`,
+        `select given_by as id, count(given_by) as given_count from c_user_cookie_transactions where is_transaction = false group by given_by order by given_count desc LIMIT ${limit};`,
         { type: QueryTypes.SELECT }
     );
     const receivedRanking = await sequelize.query(
-        `select given_to as id, count(given_to) as received_count from c_user_cookie_transactions group by given_to order by received_count desc LIMIT ${limit};`,
+        `select given_to as id, count(given_to) as received_count from c_user_cookie_transactions where is_given = true group by given_to order by received_count desc LIMIT ${limit};`,
         { type: QueryTypes.SELECT }
     );
 
     let selfStat = await sequelize.query(
         `select (select count(*) from c_user_cookie_transactions where given_by = ?) as given_count, 
-    (select count(*) from c_user_cookie_transactions where given_to = ?) as received_count`,
+    (select count(*) from c_user_cookie_transactions where given_to = ? AND is_given = ?) as received_count`,
         {
-            replacements: [selfUserId, selfUserId],
+            replacements: [selfUserId, selfUserId, true],
             type: QueryTypes.SELECT,
         }
     );
