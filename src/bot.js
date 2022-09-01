@@ -35,7 +35,7 @@ bot.on("messageCreate", async (msg) => {
         return msg.reply({ embeds: [embed] });
     }
 
-    // Give Tacos on mention of another member with emoji
+    // Give points on mention of another member with emoji
     if (msg.mentions.users.first() && msg.mentions.users.first().id !== msg.author.id && msg.content.includes(config.emoji)) {
         let todayOnTz = utcToZonedTime(new Date(), resetTz);
 
